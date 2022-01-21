@@ -88,7 +88,7 @@ def row_col():
     start.title('select row col')
     start.geometry('300x150')
     row_label = Label(start, text="Enter Row/Column (3-15)")
-    row = Entry(start,width=10)
+    row = Entry(start,width=50)
     row.insert(0,"5")
 
     ready_button = Button(start, text="ENTER", command=lambda: tk_display(start,row))
